@@ -1,0 +1,23 @@
+---
+layout: default
+title: Редакция интернет-издания
+permalink: /team/
+---
+
+<div class="home">
+
+
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Редакция интернет-издания" }}</h2><hr>
+    Состав редакции интернет-издания: <br>
+    Дмитрий Морозов - главный редактор<br>
+    Экснер Егор - младший редактор<br>
+    Мустафаев Руслан - младший редактор
+    <img src="../img/0324/105.jpg"><img src="../img/0324/104.jpg">
+    
+<br><br>
+    <p class="rss-subscribe">Подписаться <a href="{{ "/feed.xml" | relative_url }}">через RSS</a></p>
+  {%- endif -%}
+
+</div>

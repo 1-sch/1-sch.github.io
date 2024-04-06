@@ -2,7 +2,7 @@
 layout: post
 title:  "Месячный выпуск. Март"
 date:   2024-03-21 22:49:29 +0700
-categories: kids s c
+categories: kids
 ---
 <hr>
 <h3 class="da" style="color:purple">1 марта | Редактор: Первая школа</h3><h2>Итоги трека "Орлёнок-доброволец"</h2>

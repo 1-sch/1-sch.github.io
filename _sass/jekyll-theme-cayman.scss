@@ -1,6 +1,8 @@
-.bt{
-  background:#0eca3d;border-radius:50%;width:50px;height:50px;text-align:center;position:fixed;top:90%;left:86%
+.bt{ background:#0eca3d;border-radius:50%;width:50px;height:50px;text-align:center;position:fixed;top:90%;left:95%
 }
+@media screen and (width<500px){
+.bt{ background:#0eca3d;border-radius:50%;width:50px;height:50px;text-align:center;position:fixed;top:90%;left:86%
+}}
 .bt a{
   color:white;top:0px;position:relative;text-decoration:none;font-size:40px
 }

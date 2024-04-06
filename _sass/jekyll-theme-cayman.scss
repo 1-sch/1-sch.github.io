@@ -10,6 +10,7 @@
 .bt:hover{
   background:#0eb337 ;
 }
+table, tr, td, th{border: 1px solid black;border-radius: 20px}
 @import "normalize";
 @import "rouge-github";
 @import "variables";

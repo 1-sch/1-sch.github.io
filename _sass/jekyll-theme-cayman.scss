@@ -1,14 +1,11 @@
 iframe{border-radius:20px}
-.da {color:purple;float:right}
-@media screen and (width > 900px){
-.bt{ background:#0eca3d;border-radius:50%;width:50px;height:50px;text-align:center;position:fixed;top:90%;left:95%
-}}
-@media screen and (max-width < 500px){
+.da {color:purple;float:none}
 .bt{ background:#0eca3d;border-radius:50%;width:50px;height:50px;text-align:center;position:fixed;top:90%;left:86%
-}.da {color:purple;float:none}}
+}
 @media screen and (width > 500px){
-.bt{ background:#0eca3d;border-radius:50%;width:50px;height:50px;text-align:center;position:fixed;top:85%;left:90%
-}}
+.bt{ background:#0eca3d;border-radius:50%;width:50px;height:50px;text-align:center;position:fixed;top:86%;left: 90%
+}.da {color:purple;float:right}
+}
 .bt a{
   color:white;top:0px;position:relative;text-decoration:none;font-size:40px
 }

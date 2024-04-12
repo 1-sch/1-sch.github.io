@@ -8,10 +8,85 @@ categories: kids
 <h3 class="da" style="color:purple">2 апреля | Редактор: Первая школа</h3><h2>Литературный праздник "Наша книга детская"</h2>
 <p>Международный день детской книги отмечается ежегодно 2 апреля, в день рождения датского писателя-сказочника Ханса Кристиана Андерсена (1805-1875).
 Сегодня для учеников первого класса детская библиотека распахнула свои двери. Сотрудники библиотеки совместно с воспитателями и воспитанниками детского сада №2 "Солнышко" для ребят нашей школы подготовили Литературный праздник "Наша книга детская".</p>
-<div class="imgb">
-<a href="/img/0424/1.jpg"><img src="/img/0424/1.jpg"><a href="/img/0424/2.jpg"><img src="/img/0424/2.jpg"></a><a href="/img/0424/3.jpg"><img src="/img/0424/3.jpg"></a>
-<a href="/img/0424/4.jpg"><img src="/img/0424/4.jpg"></a><a href="/img/0424/5.jpg"><img src="/img/0424/5.jpg"></a><a href="/img/0424/6.jpg"><img src="/img/0424/6.jpg"></a>
-<a href="/img/0424/7.jpg"><img src="/img/0424/7.jpg"></a><a href="/img/0424/8.jpg"><img src="/img/0424/8.jpg"></a>
+<div class="slideshow-container">
+  <div class="gal1" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0424/1.jpg" onclick="openModal();currentSlide(1)">
+  </div>
+
+  <div class="gal1" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0424/2.jpg" onclick="openModal();currentSlide(2)">
+  </div>
+
+  <div class="gal1" id="gb">
+  <div class="numbertext">3</div>
+    <img src="/img/0424/3.jpg" onclick="openModal();currentSlide(3)">
+  </div>
+    <div class="gal1" id="gb">
+    <div class="numbertext">4</div>
+  <img src="/img/0424/4.jpg" onclick="openModal();currentSlide(4)">
+  </div>
+  <div class="gal1" id="gb">
+  <div class="numbertext">5</div>
+   <img src="/img/0424/5.jpg" onclick="openModal();currentSlide(5)">
+  </div>
+  <div class="gal1" id="gb">
+  <div class="numbertext">6</div>
+   <img src="/img/0424/6.jpg" onclick="openModal();currentSlide(6)">
+  </div>
+  <div class="gal1" id="gb">
+  <div class="numbertext">7</div>
+   <img src="/img/0424/7.jpg" onclick="openModal();currentSlide(7)">
+  </div>
+  <div class="gal1" id="gb">
+  <div class="numbertext">8</div>
+   <img src="/img/0424/8.jpg" onclick="openModal();currentSlide(8)">
+  </div>
+
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 0)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 0)">❯</a>
+</div>
+<div id="mga" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div class="mgas3">
+      <div class="numbertext">1</div>
+      <img src="/img/0424/1.jpg"  style="width:100%">
+    </div>
+    <div class="mgas3">
+      <div class="numbertext">2</div>
+      <img src="/img/0424/2.jpg" style="width:100%">
+    </div>
+    <div class="mgas3">
+      <div class="numbertext">3</div>
+      <img src="/img/0424/3.jpg" style="width:100%">
+    </div>
+    <div class="mgas3">
+      <div class="numbertext">4</div>
+      <img src="/img/0424/4.jpg" style="width:100%">
+    </div>
+    <div class="mgas3">
+      <div class="numbertext">5</div>
+      <img src="/img/0424/5.jpg" style="width:100%">
+    </div>
+    <div class="mgas3">
+      <div class="numbertext">6</div>
+      <img src="/img/0424/6.jpg" style="width:100%">
+    </div>
+    <div class="mgas3">
+      <div class="numbertext">7</div>
+      <img src="/img/0424/7.jpg" style="width:100%">
+    </div>
+    <div class="mgas3">
+      <div class="numbertext">8</div>
+      <img src="/img/0424/8.jpg" style="width:100%">
+    </div>
+    
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 2)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 2)">❯</a>
+  </div>
 </div>
 <hr>
 <h3 class="da" style="color:purple">4 апреля | Редактор: Первая школа</h3><h2>Региональный этап Всероссийского детского фестиваля народной культуры «Наследники традиций»</h2>
@@ -25,14 +100,162 @@ categories: kids
 📌1 апреля - внеурочные занятия «Разговоры о важном» на тему «Россия — здоровая держава», которые были посвящены спорту и здоровому образу жизни<br>
 📌В 3-А классе советник директора по воспитанию организовала киноклуб «Легенды российского спорта». Обучающиеся посмотрели художественный фильм «Стрельцов» 2020 года, после просмотра обсудили данную киноработу<br>
 📌Совместно с педагогами по физической культуре проведены спортивные игры, состязания</p>
-<div class="imgb">
-<a href="/img/0424/9.jpg"><img src="/img/0424/9.jpg"></a><a href="/img/0424/13.jpg"><img src="/img/0424/13.jpg"></a><a href="/img/0424/11.jpg"><img src="/img/0424/11.jpg"></a>
-<a href="/img/0424/12.jpg"><img src="/img/0424/12.jpg"></a><a href="/img/0424/10.jpg"><img src="/img/0424/10.jpg"></a><a href="/img/0424/14.jpg"><img src="/img/0424/14.jpg"></a>
-<a href="/img/0424/15.jpg"><img src="/img/0424/15.jpg"></a><a href="/img/0424/16.jpg"><img src="/img/0424/16.jpg"></a><a href="/img/0424/17.jpg"><img src="/img/0424/17.jpg"></a>
+<div class="slideshow-container">
+  <div class="gal2" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0424/9.jpg" onclick="openModal();currentSlide(1)">
+  </div>
+
+  <div class="gal2" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0424/13.jpg" onclick="openModal();currentSlide(2)">
+  </div>
+
+  <div class="gal2" id="gb">
+  <div class="numbertext">3</div>
+    <img src="/img/0424/11.jpg" onclick="openModal();currentSlide(3)">
+  </div>
+    <div class="gal2" id="gb">
+    <div class="numbertext">4</div>
+ <img src="/img/0424/12.jpg" onclick="openModal();currentSlide(4)">
+  </div>
+  <div class="gal2" id="gb">
+  <div class="numbertext">5</div>
+   <img src="/img/0424/10.jpg" onclick="openModal();currentSlide(5)">
+  </div>
+  <div class="gal2" id="gb">
+  <div class="numbertext">6</div>
+   <img src="/img/0424/14.jpg" onclick="openModal();currentSlide(6)">
+  </div>
+  <div class="gal2" id="gb">
+  <div class="numbertext">7</div>
+   <img src="/img/0424/15.jpg" onclick="openModal();currentSlide(7)">
+  </div>
+  <div class="gal2" id="gb">
+  <div class="numbertext">8</div>
+   <img src="/img/0424/16.jpg" onclick="openModal();currentSlide(8)">
+  </div>
+  <div class="gal2" id="gb">
+  <div class="numbertext">9</div>
+   <img src="/img/0424/17.jpg" onclick="openModal();currentSlide(9)">
+  </div>
+
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 1)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 1)">❯</a>
+</div>
+<div id="mga" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div class="mgas2">
+      <div class="numbertext">1</div>
+      <img src="/img/0424/9.jpg"  style="width:100%">
+    </div>
+    <div class="mgas2">
+      <div class="numbertext">2</div>
+      <img src="/img/0424/10.jpg" style="width:100%">
+    </div>
+    <div class="mgas2">
+      <div class="numbertext">3</div>
+      <img src="/img/0424/11.jpg" style="width:100%">
+    </div>
+    <div class="mgas2">
+      <div class="numbertext">4</div>
+      <img src="/img/0424/12.jpg" style="width:100%">
+    </div>
+    <div class="mgas2">
+      <div class="numbertext">5</div>
+      <img src="/img/0424/13.jpg" style="width:100%">
+    </div>
+    <div class="mgas2">
+      <div class="numbertext">6</div>
+      <img src="/img/0424/14.jpg" style="width:100%">
+    </div>
+    <div class="mgas2">
+      <div class="numbertext">7</div>
+      <img src="/img/0424/15.jpg" style="width:100%">
+    </div>
+    <div class="mgas2">
+      <div class="numbertext">8</div>
+      <img src="/img/0424/16.jpg" style="width:100%">
+    </div>
+    <div class="mgas2">
+      <div class="numbertext">9</div>
+      <img src="/img/0424/17.jpg" style="width:100%">
+    </div>
+    
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 1)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 1)">❯</a>
+  </div>
 </div>
 <hr>
 <h3 class="da" style="color:purple">8 апреля | Редактор: Первая школа</h3><h2>Региональный этап Всероссийского детского фестиваля народной культуры «Наследники традиций»</h2>
 <p>Обучающиеся МБОУ Баганской СОШ №1 Савва Валерия и Савва Виктория приняли участие в региональном этапе Всероссийского детского фестиваля народной культуры «Наследники традиций».
 Всероссийский фестиваль «Наследники традиций» проводится для выявления, развития и поддержки детей, проявляющих способности в области народной культуры и искусства, воспитания и развития личной успешности детей, приобщения их к ценностям этнокультурного наследия субъектов России. </p>
 <iframe src="https://vk.com/video_ext.php?oid=-4991065&id=456239342&hash=520acbf993abff0d" width="100%" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<hr>
+<h3 class="da" style="color:purple">4 апреля | Редактор: Первая школа</h3><h2>Региональный этап Всероссийского детского фестиваля народной культуры «Наследники традиций»</h2>
+<p>Обучающаяся МБОУ Баганской СОШ №1 Савва Валерия приняла участие в региональном этапе Всероссийского детского фестиваля народной культуры «Наследники традиций».
+Всероссийский фестиваль «Наследники традиций» проводится для выявления, развития и поддержки детей, проявляющих способности в области народной культуры и искусства, воспитания и развития личной успешности детей, приобщения их к ценностям этнокультурного наследия субъектов России.</p>
+<iframe src="https://vk.com/video_ext.php?oid=-4991065&id=456239341&hash=03dfdee565cd1fdd" width="100%"  frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<hr>
+<h3 class="da" style="color:purple">5-10 апреля | Редактор: Первая школа</h3><h2>Акция «Поставь отметку блюду»</h2>
+<p>В период с 5 по 10 апреля 2024 года для обучающихся 1-4 классов и педагогов в школьной столовой была проведена акция «Поставь отметку блюду». Основная задача Акции заключалась в мониторинге удовлетворенности обучающихся качеством блюд, приготовленных в школьной столовой. Все 4 дня акции работники столовой школы получали оценки за приготовление своих блюд. Ребята имели возможность оценить блюда, приготовленные в школьной столовой поставив отметки от 2 до 5.<br>
+Итоги голосования:<br>
+2 апреля - картофельное пюре с тушеной капустой и мясом получают следующие отметки: «2» - 24чел., «3» - 13чел., «4» - 25 чел., «5»-77 чел.;<br>
+3 апреля – жаркое по-домашнему из курицы: «2» - 21чел., «3» - 6чел., «4» - 21 чел., «5»-95 чел.;<br>
+4 апреля – макароны отварные и тефтели: «2» - 20чел., «3» - 23чел., «4» - 41 чел., «5»-108 чел.;<br>
+5 апреля – запеканка картофельная с говядиной: «2» - 14чел., «3» - 16чел., «4» - 76 чел., «5»-117 чел.<br>
+В результате лидеры-блюда, которые получили «4» и «5» стали жаркое по-домашнему (81%) и запеканка картофельная с говядиной (86%).<br>
+
+Полученные результаты свидетельствуют об общей удовлетворенности обучающихся организацией питания в школе и о том, что у каждого обучающегося есть блюдо-фаворит!</p>
+<div class="slideshow-container">
+  <div class="gal3" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0424/18.jpg" onclick="openModal();currentSlide(1)">
+  </div>
+
+  <div class="gal3" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0424/19.jpg" onclick="openModal();currentSlide(2)">
+  </div>
+
+  <div class="gal3" id="gb">
+  <div class="numbertext">3</div>
+    <img src="/img/0424/20.jpg" onclick="openModal();currentSlide(3)">
+  </div>
+    <div class="gal3" id="gb">
+    <div class="numbertext">4</div>
+  <img src="/img/0424/21.jpg" onclick="openModal();currentSlide(4)">
+  </div>
+
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 2)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 2)">❯</a>
+</div>
+
+
+<div id="mga" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div class="mgas1">
+      <div class="numbertext">1</div>
+      <img src="/img/0424/18.jpg" style="width:100%">
+    </div>
+    <div class="mgas1">
+      <div class="numbertext">2</div>
+      <img src="/img/0424/19.jpg" style="width:100%">
+    </div>
+    <div class="mgas1">
+      <div class="numbertext">3</div>
+      <img src="/img/0424/20.jpg" style="width:100%">
+    </div>
+    <div class="mgas1">
+      <div class="numbertext">4</div>
+      <img src="/img/0424/21.jpg" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 0)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 0)">❯</a>
+  </div>
+</div>
 <hr>

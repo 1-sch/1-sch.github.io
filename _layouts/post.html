@@ -25,7 +25,8 @@ layout: default
 
 
 {{content}}
-
+<br>
 {% if page.tags %}
-  <small>теги: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+ <small>{{Теги:}} <em>{{ page.tags | join: "</em> | <em>" }}</em></small>
+  {% else %}
 {% endif %}

@@ -1,34 +1,62 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "ru-RU" }}">
-  <head>
-    <meta charset="UTF-8">
+<html lang="{{ site.lang | default: " ru-RU" }}">
 
-{% seo %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
 
-    <header class="page-header" role="banner">
-      <img src="/assets/img/1.png" width="120px" style="float:left;display: block;margin-left: auto;margin-right: auto">
-      <h1 class="project-name">{{ site.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% include header.html %}
-    </header>
+  {% seo %}
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style"
+    type="text/css" crossorigin>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  {% include head-custom.html %}
+</head>
 
-    <main id="content" class="main-content" role="main">
-      {{ content }}
+<body>
 
-      <footer class="site-footer">
-        <span class="site-footer-credits">Сделано в Студии цифровой разработки "Апельсин"</span>
-      </footer>
-    </main>
-    <div class="bt"><a href="#" style="text-decoration: none;">^</a></div>
-    <script src="/../script/js.js"></script>
-  </body>
+  <header class="page-header" role="banner">
+    <img src="/assets/img/1.png" width="120px" style="float:left;display: block;margin-left: auto;margin-right: auto">
+    <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+    <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+    {% include header.html %}
+  </header>
+  <aside class="sidebar1">
+    <h3>Почему «Пульс школы»?</h3>
+    <p>Мы уверены, что из всех материалов, размещаемых на сайте газеты, постепенно сложится история школьной жизни такая, какой её видят ученики. Жизнь в школе бьёт пульсом. Главное, чтобы газета  существовала и в её создании участвовало как можно больше учащихся.</p>
+    <h3>О чём наша газета?</h3>
+    <p>Конечно, о школе, о праздниках и буднях, о знаменательных событиях, о достижениях и интересах учеников, обо всех тех, кто творит историю школы. И чем разнообразнее будет содержание газеты, тем полнее в летописи будет отображаться ежегодная  история школы и его учеников. </p>
+    <h3>Редакция  газеты</h3>
+    <p>Создателями газеты являются обучающиеся школы. Руководитель интернет-издания - Морозова Ольга Владимировна, вожатая; главный редактор - Морозов Дмитрий, младшие редакторы - Экснер Егор и Мустафаев Руслан. </p>
+</aside>
+  <aside class="sidebar2">
+    <h3>Месячные выпуски</h3>
+  <a href="/kids"><h4>Все выпуски</h4></a>
+  <a href="/kids/2024/04/17/апрельский-выпуск.html"><h4>Апрель</h4></a>
+  <a href="/kids/2024/03/31/мартовский-выпуск.html"><h4>Март</h4></a>
+  <a href="/kids/2024/02/29/февральский-выпуск.html"><h4>Февраль</h4></a>
+  <a href="/kids/2024/01/31/январский-выпуск.html"><h4>Январь</h4></a>
+  <h3>Наши достижения</h3>
+  <a href="/s"><h4>Все достижения</h4></a>
+  <a href="/s/2024/04/12/зарница.html"><h4>Всероссийская военно-патриотическая игра "Зарница 2.0"</h4></a>
+  <a href="/s/2024/03/26/сиб-поэт-чтения.html"><h4>Сибирские детские поэтические чтения 2024</h4></a>
+  <a href="/s/2024/02/12/шахматы-баган-дебют.html"><h4>Соревнования по шахматам "Баганский дебют. Февральская битва"</h4></a>
+  <h3>Объявления</h3>
+  <a href="/adv"><h4>Все объявления</h4></a>
+  <a href="/adv/2024/04/01/объявления-2.html"><h4>Акции. Апрель</h4></a>
+  <a href="/adv/2024/04/01/объявления-1.html"><h4>Конкурсы. Апрель</h4></a>
+</aside>
+  <main id="content" class="main-content" role="main">
+    {{ content }}
+
+    <footer class="site-footer">
+      <span class="site-footer-credits">Сделано в Студии цифровой разработки "Апельсин"</span>
+    </footer>
+  </main>
+  <div class="bt"><a href="#" style="text-decoration: none;">^</a></div>
+  <script src="/../script/js.js"></script>
+</body>
+
 </html>

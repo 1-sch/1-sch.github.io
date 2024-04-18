@@ -4,13 +4,68 @@ title:  "Месячный выпуск. Январь"
 date:   2024-01-31 22:49:29 +0700
 categories: kids
 ---
+<script>
+var slideIndex = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
+var slideId = ["gal1", "gal2", "gal3", "gal4", "gal5", "gal6", "gal7", "gal8", "gal9", "gal10", "gal11", "gal12", "gal13", "gal14", "gal15", "gal16"];
+var smi = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
+var smid = ["mgas1", "mgas2", "mgas3", "mgas4", "mgas5", "mgas6", "mgas7", "mgas8", "mgas9", "mgas10", "mgas11", "mgas12", "mgas13", "mgas14", "mgas15", "mgas16"];
+</script>
 <hr>
 <h3 class="da" style="color:purple">16 января | Редактор: Первая школа</h3><h2>Занятие по Юнармии посетил сержант школы по подготовке младшего командного состава Пограничных войск</h2>
 <p>16.01.2024 года занятие по Юнармии посетил сержант школы по подготовке младшего командного состава Пограничных войск Гришко Виталий Валерьевич. В ходе встречи Виталий Валерьевич рассказал юнармейцам о своей службе, поделился знаниями в области строевой подготовки, выполнения строевых приёмов с оружием. Ребята также узнали об уставе военнослужащих. В свою очередь юнармейцы отряда "Воин" и "Витязь" показали Виталию Валерьевичу свои знания как в области строевой подготовки, так и в области физической подготовки, а также продемонстрировали навыки по неполной разборке, сборке автомата Калашникова. В ходе общения ребята получили не только удовольствие, но и полезную информацию о службе в Армии.
 Куратор Юнармейских отрядов "Воин" и "Витязь" МБОУ Баганской СОШ№1 Е.Н.Нефедов</p>
-<div class="imgb">
-<img src="/img/0124/1.jpg"><img src="/img/0124/2.jpg"><img src="/img/0124/3.jpg">
-<img src="/img/0124/4.jpg"><img src="/img/0124/5.jpg">
+<div class="slideshow-container">
+  <div class="gal1" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0124/1.jpg" onclick="om(1);">
+  </div>
+  <div class="gal1" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0124/2.jpg" onclick="om(1);">
+  </div>
+
+  <div class="gal1" id="gb">
+  <div class="numbertext">3</div>
+    <img src="/img/0124/3.jpg" onclick="om(1);">
+  </div>
+    <div class="gal1" id="gb">
+    <div class="numbertext">4</div>
+ <img src="/img/0124/4.jpg" onclick="om(1);">
+  </div>
+  <div class="gal1" id="gb">
+  <div class="numbertext">5</div>
+   <img src="/img/0124/5.jpg" onclick="om(1);">
+</div>
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 0)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 0)">❯</a>
+</div>
+<div id="mga1" class="modal">
+  <span class="close cursor" onclick="cm(1)">&times;</span>
+  <div class="modal-content">
+    <div class="mgas1">
+      <div class="numbertext">1</div>
+      <img src="/img/0124/1.jpg"  style="width:100%">
+    </div>
+    <div class="mgas1">
+      <div class="numbertext">2</div>
+      <img src="/img/0124/2.jpg" style="width:100%">
+    </div>
+    <div class="mgas1">
+      <div class="numbertext">3</div>
+      <img src="/img/0124/3.jpg" style="width:100%">
+    </div>
+    <div class="mgas1">
+      <div class="numbertext">4</div>
+      <img src="/img/0124/4.jpg" style="width:100%">
+    </div>
+    <div class="mgas1">
+      <div class="numbertext">5</div>
+      <img src="/img/0124/5.jpg" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 0)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 0)">❯</a>
+  </div>
 </div>
 <hr>
 <h3 class="da" style="color:purple">16 января | Редактор: Первая школа</h3><h2>«Единый день дорожной безопасности». </h2>
@@ -20,9 +75,52 @@ categories: kids
 
 Все проведённые мероприятия явились частью постоянно осуществляемой школой работы по профилактике дорожного травматизма.
 Автор : Таранченко Е.Ю</p>
-<div class="imgb">
-<img src="/img/0124/6.jpg"><img src="/img/0124/7.jpg"><img src="/img/0124/8.jpg">
-<img src="/img/0124/9.jpg">
+<div class="slideshow-container">
+  <div class="gal2" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0124/6.jpg" onclick="om(2);">
+  </div>
+
+  <div class="gal2" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0124/7.jpg" onclick="om(2);">
+  </div>
+
+  <div class="gal2" id="gb">
+  <div class="numbertext">3</div>
+    <img src="/img/0124/8.jpg" onclick="om(2);">
+  </div>
+    <div class="gal2" id="gb">
+    <div class="numbertext">4</div>
+ <img src="/img/0124/9.jpg" onclick="om(2);">
+  </div>
+
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 1)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 1)">❯</a>
+</div>
+<div id="mga2" class="modal">
+  <span class="close cursor" onclick="cm(2)">&times;</span>
+  <div class="modal-content">
+    <div class="mgas2">
+      <div class="numbertext">1</div>
+      <img src="/img/0124/6.jpg"  style="width:100%">
+    </div>
+    <div class="mgas2">
+      <div class="numbertext">2</div>
+      <img src="/img/0124/7.jpg" style="width:100%">
+    </div>
+    <div class="mgas2">
+      <div class="numbertext">3</div>
+      <img src="/img/0124/8.jpg" style="width:100%">
+    </div>
+    <div class="mgas2">
+      <div class="numbertext">4</div>
+      <img src="/img/0124/9.jpg" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 1)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 1)">❯</a>
+  </div>
 </div>
 <hr>
 <h3 class="da" style="color:purple">16 января | Редактор: Первая школа</h3><h2>"Новый год на фотопленке с Движением Первых"</h2>
@@ -39,8 +137,35 @@ categories: kids
 С целью снижения происшествий с участием несовершеннолетних на льду и открытых водоемах. С ребятами был проведен классный час , для беседы был приглашен сотрудник МЧС Калугин А.А .
 Алексей Анатольевич показал ребятам фильм и иллюстрации по теме, после чего с ними была проведена беседа «Осторожно – тонкий лед». , в материалах было отмечено об опасности пересечения водоемов по льду вне ледовых переправ и пешеходных ледовых переходов. Обучающиеся получили практические рекомендации, как можно визуально определить толщину льда, приемы оказания помощи для собственной безопасности или спасения, а также приемы оказания помощи пострадавшим.
 Обучающиеся в игровой форме активно отвечали на вопросы Алексея Анатольевича и давали свои комментарии по правилам безопасного поведения на водоемах в зимнее время, убедились ещё раз, что вода имеет разные свойства и может окраситься в любой цвет. По окончании классного часа ребята получили памятки о правилах безопасности на воде.</p>
-<div class="imgb">
-<img src="/img/0124/11.jpg"><img src="/img/0124/12.jpg">
+<div class="slideshow-container">
+  <div class="gal3" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0124/11.jpg" onclick="om(3);">
+  </div>
+
+  <div class="gal3" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0124/12.jpg" onclick="om(3);">
+  </div>
+
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 2)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 2)">❯</a>
+</div>
+<div id="mga3" class="modal">
+  <span class="close cursor" onclick="cm(3)">&times;</span>
+  <div class="modal-content">
+    <div class="mgas3">
+      <div class="numbertext">1</div>
+      <img src="/img/0124/11.jpg"  style="width:100%">
+    </div>
+    <div class="mgas3">
+      <div class="numbertext">2</div>
+      <img src="/img/0124/12.jpg" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 2)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 2)">❯</a>
+  </div>
 </div>
 <hr>
 <h3 class="da" style="color:purple">16 января | Редактор: Первая школа</h3><h2>Активисты МБОУ БаганскойСОШ №1 приняли участие во Всероссийском проекте Движения Первых "Классные встречи"</h2>
@@ -53,8 +178,44 @@ categories: kids
 Ребята слушали с большим интересом рассказ Алексея Анатольевича, задавали огромное количество вопросов. В конце встречи сотрудник МЧС рассказал про форму пожарного и предложил ребятам посетить пожарную часть.
 Такие встречи, отмечают спасатели, просто необходимы для подрастающего поколения. Они не только знакомят молодежь с одной из самых опасных профессий в мире, но и повышают культуру безопасности среди населения.
 По итогу встречи обучающиеся и Алексей Анатольевич сделали на память общее фото</p>
-<div class="imgb">
-<img src="/img/0124/13.jpg"><img src="/img/0124/14.jpg"><img src="/img/0124/15.jpg">
+<div class="slideshow-container">
+  <div class="gal4" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0124/13.jpg" onclick="om(4);">
+  </div>
+
+  <div class="gal4" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0124/14.jpg" onclick="om(4);">
+  </div>
+
+  <div class="gal4" id="gb">
+  <div class="numbertext">3</div>
+    <img src="/img/0124/15.jpg" onclick="om(4);">
+  </div>
+
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 3)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 3)">❯</a>
+</div>
+<div id="mga4" class="modal">
+  <span class="close cursor" onclick="cm(4)">&times;</span>
+  <div class="modal-content">
+    <div class="mgas4">
+      <div class="numbertext">1</div>
+      <img src="/img/0124/13.jpg"  style="width:100%">
+    </div>
+    <div class="mgas4">
+      <div class="numbertext">2</div>
+      <img src="/img/0124/14.jpg" style="width:100%">
+    </div>
+    <div class="mgas4">
+      <div class="numbertext">3</div>
+      <img src="/img/0124/15.jpg" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 3)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 3)">❯</a>
+  </div>
 </div>
 <hr>
 <h3 class="da" style="color:purple">18 января | Редактор: Первая школа</h3><h2>Региональная акция "Гендрево-первооткрыватели" от Движения Первых</h2>
@@ -65,29 +226,288 @@ categories: kids
 
 💥Именно в семье мы учимся любить, быть ответственными друг за друга, заботиться, уважать. Только в семье создаются традиции, которые передаются из поколения в поколение.
 💞💫Семья самое важное, что есть в жизни человека и хранить память о ней наша главная задача. </p>
-<div class="imgb">
-<img src="/img/0124/16.jpg"><img src="/img/0124/20.jpg"><img src="/img/0124/18.jpg">
-<img src="/img/0124/19.jpg"><img src="/img/0124/17.jpg"><img src="/img/0124/21.jpg">
-<img src="/img/0124/25.jpg"><img src="/img/0124/23.jpg"><img src="/img/0124/24.jpg">
-<img src="/img/0124/22.jpg">
+<div class="slideshow-container">
+  <div class="gal5" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0124/16.jpg" onclick="om(5);">
+  </div>
+
+  <div class="gal5" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0124/17.jpg" onclick="om(5);">
+  </div>
+
+  <div class="gal5" id="gb">
+  <div class="numbertext">3</div>
+    <img src="/img/0124/18.jpg" onclick="om(5);">
+  </div>
+    <div class="gal5" id="gb">
+    <div class="numbertext">4</div>
+ <img src="/img/0124/19.jpg" onclick="om(5);">
+  </div>
+  <div class="gal5" id="gb">
+  <div class="numbertext">5</div>
+   <img src="/img/0124/20.jpg" onclick="om(5);">
+  </div>
+    <div class="gal5" id="gb">
+  <div class="numbertext">6</div>
+    <img src="/img/0124/21.jpg" onclick="om(5);">
+  </div>
+
+  <div class="gal5" id="gb">
+  <div class="numbertext">7</div>
+    <img src="/img/0124/22.jpg" onclick="om(5);">
+  </div>
+
+  <div class="gal5" id="gb">
+  <div class="numbertext">8</div>
+    <img src="/img/0124/23.jpg" onclick="om(5);">
+  </div>
+    <div class="gal5" id="gb">
+    <div class="numbertext">9</div>
+ <img src="/img/0124/24.jpg" onclick="om(5);">
+  </div>
+      <div class="gal5" id="gb">
+    <div class="numbertext">10</div>
+ <img src="/img/0124/25.jpg" onclick="om(5);">
+  </div>
+
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 4)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 4)">❯</a>
+</div>
+<div id="mga5" class="modal">
+  <span class="close cursor" onclick="cm(5)">&times;</span>
+  <div class="modal-content">
+    <div class="mgas5">
+      <div class="numbertext">1</div>
+      <img src="/img/0124/16.jpg"  style="width:100%">
+    </div>
+    <div class="mgas5">
+      <div class="numbertext">2</div>
+      <img src="/img/0124/17.jpg" style="width:100%">
+    </div>
+    <div class="mgas5">
+      <div class="numbertext">3</div>
+      <img src="/img/0124/18.jpg" style="width:100%">
+    </div>
+    <div class="mgas5">
+      <div class="numbertext">4</div>
+      <img src="/img/0124/19.jpg" style="width:100%">
+    </div>
+    <div class="mgas5">
+      <div class="numbertext">5</div>
+      <img src="/img/0124/20.jpg" style="width:100%">
+    </div>
+        <div class="mgas5">
+      <div class="numbertext">6</div>
+      <img src="/img/0124/21.jpg"  style="width:100%">
+    </div>
+    <div class="mgas5">
+      <div class="numbertext">7</div>
+      <img src="/img/0124/22.jpg" style="width:100%">
+    </div>
+    <div class="mgas5">
+      <div class="numbertext">8</div>
+      <img src="/img/0124/23.jpg" style="width:100%">
+    </div>
+    <div class="mgas5">
+      <div class="numbertext">9</div>
+      <img src="/img/0124/24.jpg" style="width:100%">
+    </div>
+        <div class="mgas5">
+      <div class="numbertext">10</div>
+      <img src="/img/0124/25.jpg" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 4)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 4)">❯</a>
+  </div>
 </div>
 <hr>
 <h3 class="da" style="color:purple">20 января | Редактор: Первая школа</h3><h2>«Орлёнок - Доброволец»</h2>
 <p>«Доброволец – это доброе сердце»! Ученики 2 "А" класса знают теперь это твёрдо! Наши Орлята завершили очередной трек в рамках реализации программы развития социальной активности обучающихся начальных классов «Орлята России». Трек назывался «Орлёнок - Доброволец». В течение месяца ребята выполняли различные задания: узнали, кто такие волонтёры, создали «Плакат добровольца» на занятиях «От слова к делу». Во время выполнения заданий «Спешить на помощь безвозмездно!» помогали родителям с домашними делами и кормили зимующих птиц. </p>
-<div class="imgb">
-<img src="/img/0124/26.jpg"><img src="/img/0124/27.jpg"><img src="/img/0124/28.jpg">
-<img src="/img/0124/29.jpg"><img src="/img/0124/30.jpg"><img src="/img/0124/31.jpg">
-<img src="/img/0124/32.jpg"><img src="/img/0124/33.jpg"><img src="/img/0124/34.jpg">
+<div class="slideshow-container">
+  <div class="gal6" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0124/26.jpg" onclick="om(6);">
+  </div>
+
+  <div class="gal6" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0124/27.jpg" onclick="om(6);">
+  </div>
+
+  <div class="gal6" id="gb">
+  <div class="numbertext">3</div>
+    <img src="/img/0124/28.jpg" onclick="om(6);">
+  </div>
+    <div class="gal6" id="gb">
+    <div class="numbertext">4</div>
+ <img src="/img/0124/29.jpg" onclick="om(6);">
+  </div>
+  <div class="gal6" id="gb">
+  <div class="numbertext">5</div>
+   <img src="/img/0124/30.jpg" onclick="om(6);">
+  </div>
+    <div class="gal6" id="gb">
+  <div class="numbertext">6</div>
+    <img src="/img/0124/31.jpg" onclick="om(6);">
+  </div>
+
+  <div class="gal6" id="gb">
+  <div class="numbertext">7</div>
+    <img src="/img/0124/32.jpg" onclick="om(6);">
+  </div>
+
+  <div class="gal6" id="gb">
+  <div class="numbertext">8</div>
+    <img src="/img/0124/33.jpg" onclick="om(6);">
+  </div>
+    <div class="gal6" id="gb">
+    <div class="numbertext">9</div>
+ <img src="/img/0124/34.jpg" onclick="om(6);">
+  </div>
+
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 5)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 5)">❯</a>
+</div>
+<div id="mga6" class="modal">
+  <span class="close cursor" onclick="cm(6)">&times;</span>
+  <div class="modal-content">
+    <div class="mgas6">
+      <div class="numbertext">1</div>
+      <img src="/img/0124/26.jpg"  style="width:100%">
+    </div>
+    <div class="mgas6">
+      <div class="numbertext">2</div>
+      <img src="/img/0124/27.jpg" style="width:100%">
+    </div>
+    <div class="mgas6">
+      <div class="numbertext">3</div>
+      <img src="/img/0124/28.jpg" style="width:100%">
+    </div>
+    <div class="mgas6">
+      <div class="numbertext">4</div>
+      <img src="/img/0124/29.jpg" style="width:100%">
+    </div>
+    <div class="mgas6">
+      <div class="numbertext">5</div>
+      <img src="/img/0124/30.jpg" style="width:100%">
+    </div>
+        <div class="mgas6">
+      <div class="numbertext">6</div>
+      <img src="/img/0124/31.jpg"  style="width:100%">
+    </div>
+    <div class="mgas6">
+      <div class="numbertext">7</div>
+      <img src="/img/0124/32.jpg" style="width:100%">
+    </div>
+    <div class="mgas6">
+      <div class="numbertext">8</div>
+      <img src="/img/0124/33.jpg" style="width:100%">
+    </div>
+    <div class="mgas6">
+      <div class="numbertext">9</div>
+      <img src="/img/0124/34.jpg" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 5)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 5)">❯</a>
+  </div>
 </div>
 <hr>
 <h3 class="da" style="color:purple">23 января | Редактор: Первая школа</h3><h2>Всероссийская акция "Я - изобретатель" </h2>
 <p>💥с 15 по 17 января активисты Движения Первых приняли участие во Всероссийской акции "Я - изобретатель", которая приурочена ко всемирному Дню детских изобретений.
 Ребята провела акцию в формате мастер-класса совместно с учителем технологии Синяевой Н.Я., по созданию поделок. Они использовали для создания своих поделок вторичное сырьё: пластиковую посуду, бутылки, старые коробки и остатки различных тканей..
 Такие мастер-классы стали не только возможностью для ребят научиться чему-то новому, но и поводом обсудить проблемы экологии и способы их решения.</p>
-<div class="imgb">
-<img src="/img/0124/35.jpg"><img src="/img/0124/36.jpg"><img src="/img/0124/39.jpg">
-<img src="/img/0124/38.jpg"><img src="/img/0124/37.jpg"><img src="/img/0124/40.jpg">
-<img src="/img/0124/41.jpg"><img src="/img/0124/42.jpg"><img src="/img/0124/43.jpg">
+<div class="slideshow-container">
+  <div class="gal7" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0124/35.jpg" onclick="om(7);">
+  </div>
+
+  <div class="gal7" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0124/36.jpg" onclick="om(7);">
+  </div>
+
+  <div class="gal7" id="gb">
+  <div class="numbertext">3</div>
+    <img src="/img/0124/37.jpg" onclick="om(7);">
+  </div>
+    <div class="gal7" id="gb">
+    <div class="numbertext">4</div>
+ <img src="/img/0124/38.jpg" onclick="om(7);">
+  </div>
+  <div class="gal7" id="gb">
+  <div class="numbertext">6</div>
+   <img src="/img/0124/39.jpg" onclick="om(7);">
+  </div>
+    <div class="gal7" id="gb">
+  <div class="numbertext">6</div>
+    <img src="/img/0124/40.jpg" onclick="om(7);">
+  </div>
+
+  <div class="gal7" id="gb">
+  <div class="numbertext">7</div>
+    <img src="/img/0124/41.jpg" onclick="om(7);">
+  </div>
+
+  <div class="gal7" id="gb">
+  <div class="numbertext">8</div>
+    <img src="/img/0124/42.jpg" onclick="om(7);">
+  </div>
+    <div class="gal7" id="gb">
+    <div class="numbertext">9</div>
+ <img src="/img/0124/43.jpg" onclick="om(7);">
+  </div>
+
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 6)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 6)">❯</a>
+</div>
+<div id="mga7" class="modal">
+  <span class="close cursor" onclick="cm(7)">&times;</span>
+  <div class="modal-content">
+    <div class="mgas7">
+      <div class="numbertext">1</div>
+      <img src="/img/0124/35.jpg"  style="width:100%">
+    </div>
+    <div class="mgas7">
+      <div class="numbertext">2</div>
+      <img src="/img/0124/36.jpg" style="width:100%">
+    </div>
+    <div class="mgas7">
+      <div class="numbertext">3</div>
+      <img src="/img/0124/37.jpg" style="width:100%">
+    </div>
+    <div class="mgas7">
+      <div class="numbertext">4</div>
+      <img src="/img/0124/38.jpg" style="width:100%">
+    </div>
+    <div class="mgas7">
+      <div class="numbertext">6</div>
+      <img src="/img/0124/39.jpg" style="width:100%">
+    </div>
+        <div class="mgas7">
+      <div class="numbertext">6</div>
+      <img src="/img/0124/40.jpg"  style="width:100%">
+    </div>
+    <div class="mgas7">
+      <div class="numbertext">7</div>
+      <img src="/img/0124/41.jpg" style="width:100%">
+    </div>
+    <div class="mgas7">
+      <div class="numbertext">8</div>
+      <img src="/img/0124/42.jpg" style="width:100%">
+    </div>
+    <div class="mgas7">
+      <div class="numbertext">9</div>
+      <img src="/img/0124/43.jpg" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 6)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 6)">❯</a>
+  </div>
 </div>
 <hr>
 <h3 class="da" style="color:purple">24 января | Редактор: Первая школа</h3><h2>День российского студенчества</h2>
@@ -98,16 +518,77 @@ categories: kids
 <p>В нашей школе 25 января состоялась встреча с участником СВО.
 Александр К. встретился с обучающимися и Юнармейцами,с младшим составом отряда ЮИД "Патруль".
 Особый интерес встреча вызвала у младших школьников, они задавали очень много вопросов ,о жизни в полевых условиях, о выбранной профессии и т.д.В завершении встречи ведущая поблагодарила Александра К. за мир, благополучие и пригласила на следующую встречу.</p>
-<div class="imgb">
-<img src="/img/0124/44.jpg"><img src="/img/0124/45.jpg">
+<div class="slideshow-container">
+  <div class="gal8" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0124/44.jpg" onclick="om(8);">
+  </div>
+
+  <div class="gal8" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0124/45.jpg" onclick="om(8);">
+  </div>
+
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 7)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 7)">❯</a>
+</div>
+<div id="mga8" class="modal">
+  <span class="close cursor" onclick="cm(8)">&times;</span>
+  <div class="modal-content">
+    <div class="mgas8">
+      <div class="numbertext">1</div>
+      <img src="/img/0124/44.jpg"  style="width:100%">
+    </div>
+    <div class="mgas8">
+      <div class="numbertext">2</div>
+      <img src="/img/0124/45.jpg" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 7)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 7)">❯</a>
+  </div>
 </div>
 <hr>
 <h3 class="da" style="color:purple">25 января | Редактор: Первая школа</h3><h2>Встреча с обучающимися 9-х классов выпускницы нашей школы</h2>
 <p>Преддверии Дня Российского студенчества в МБОУ Баганскую СОШ №1 на встречу с обучающимися 9-х классов пришла выпускница нашей школы Новикова Полина, ныне студентка 3 курса Новосибирского государственного университета экономики и управления. Полина рассказала ребятам о себе , о том как училась в школе, как готовилась к сдаче ЕГЭ и к поступлению в университет. О ярких моментах своей студенческой жизни. О традициях празднования 1 сентября "Дня знаний " в университете.
 Полина раздала ребятам брошюры рассказывающие о ее учебном заведении. Подробно рассказала своих учебных буднях.
 Отметим, что «Классные встречи» — это один из ключевых проектов Российского движения школьников, который стартовал в стране в 2017 году. </p>
-<div class="imgb">
-<img src="/img/0124/46.jpg"><img src="/img/0124/47.jpg"><img src="/img/0124/48.jpg">
+<div class="slideshow-container">
+  <div class="gal9" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0124/46.jpg" onclick="om(9);">
+  </div>
+
+  <div class="gal9" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0124/47.jpg" onclick="om(9);">
+  </div>
+  <div class="gal9" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0124/48.jpg" onclick="om(9);">
+  </div>
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 8)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 8)">❯</a>
+</div>
+<div id="mga9" class="modal">
+  <span class="close cursor" onclick="cm(9)">&times;</span>
+  <div class="modal-content">
+    <div class="mgas9">
+      <div class="numbertext">1</div>
+      <img src="/img/0124/46.jpg"  style="width:100%">
+    </div>
+    <div class="mgas9">
+      <div class="numbertext">2</div>
+      <img src="/img/0124/47.jpg" style="width:100%">
+    </div>
+        <div class="mgas9">
+      <div class="numbertext">2</div>
+      <img src="/img/0124/48.jpg" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 8)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 8)">❯</a>
+  </div>
 </div>
 <hr>
 <h3 class="da" style="color:purple">25 января | Редактор: Первая школа</h3><h2>"Классная встреча" с выпускницей нашей школы Клюкиной Анастасией</h2>
@@ -116,8 +597,42 @@ categories: kids
 Наша гостья рассказала о себе, о том почему именно такой выбор профессии она сделала, о своих планах на жизнь и работу по окончании ВУЗа. Какие дисциплины она изучает, а учащиеся 9х-10х классов имели возможность задать свои вопросы.
 По окончании встречи девушка дала советы на будущее и поделились опытом подготовки к ЕГЭ
 «Студенческая жизнь — это заветная мечта каждого школьника. Студенческие годы — это первая любовь, веселье и молодость! Поздравляем всех студентов с праздником! Желаем успехов в учебе!» </p>
-<div class="imgb">
-<img src="/img/0124/49.jpg"><img src="/img/0124/50.jpg"><img src="/img/0124/51.jpg">
+<div class="slideshow-container">
+  <div class="gal10" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0124/49.jpg" onclick="om(10);">
+  </div>
+
+  <div class="gal10" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0124/50.jpg" onclick="om(10);">
+  </div>
+  <div class="gal10" id="gb">
+  <div class="numbertext">3</div>
+    <img src="/img/0124/51.jpg" onclick="om(10);">
+  </div>
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 9)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 9)">❯</a>
+</div>
+<div id="mga10" class="modal">
+  <span class="close cursor" onclick="cm(10)">&times;</span>
+  <div class="modal-content">
+    <div class="mgas10">
+      <div class="numbertext">1</div>
+      <img src="/img/0124/49.jpg"  style="width:100%">
+    </div>
+    <div class="mgas10">
+      <div class="numbertext">2</div>
+      <img src="/img/0124/50.jpg" style="width:100%">
+    </div>
+        <div class="mgas10">
+      <div class="numbertext">3</div>
+      <img src="/img/0124/51.jpg" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 9)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 9)">❯</a>
+  </div>
 </div>
 <hr>
 <h3 class="da" style="color:purple">25 января | Редактор: Первая школа</h3><h2>В МБОУ Баганской СОШ №1 прошла встреча с участником СВО Александром К. находящимся в краткосрочном отпуске</h2>
@@ -131,16 +646,93 @@ categories: kids
 … Мне им хочется вслед, как молитву, прочесть –
 Оставайтесь живыми вы только!..
 Фотоматериал предоставлен газетой "Степная Нива"</p>
-<div class="imgb">
-<img src="/img/0124/52.jpg"><img src="/img/0124/53.jpg">
+<div class="slideshow-container">
+  <div class="gal11" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0124/52.jpg" onclick="om(11);">
+  </div>
+
+  <div class="gal11" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0124/53.jpg" onclick="om(11);">
+  </div>
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 10)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 10)">❯</a>
+</div>
+<div id="mga11" class="modal">
+  <span class="close cursor" onclick="cm(11)">&times;</span>
+  <div class="modal-content">
+    <div class="mgas11">
+      <div class="numbertext">1</div>
+      <img src="/img/0124/52.jpg"  style="width:100%">
+    </div>
+    <div class="mgas11">
+      <div class="numbertext">2</div>
+      <img src="/img/0124/53.jpg" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 10)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 10)">❯</a>
+  </div>
 </div>
 <hr>
 <h3 class="da" style="color:purple">25 января | Редактор: Первая школа</h3><h2>День освобождения Красной армией крупнейшего «лагеря смерти» АушвицБиркенау (Освенцима) – День памяти жертв Холокоста </h2>
 <p>Дата памятного дня выбрана не случайно. 27 января 1945 года войска Советской Армии освободили первый и самый большой из гитлеровских концлагерей Аушвиц (Освенцим), расположенный в 70 километрах от Кракова. В фашистских лагерях было уничтожено 6 миллионов евреев и миллионы лиц других национальностей.
 В преддверии Дня памяти жертв Холокоста, советник директора по воспитанию и взаимодействию с детскими общественными объединениями Джанина А.Т. организовала виртуальную экскурсию в 5, 7 классах по крупнейшему лагерю смерти Аушвиц-Биркенау(Освенцим). А в 10 классе прошёл киноурок по короткометражному фильму "Страна игрушек".</p>
-<div class="imgb">
-<img src="/img/0124/54.jpg"><img src="/img/0124/55.jpg"><img src="/img/0124/56.jpg">
-<img src="/img/0124/57.jpg"><img src="/img/0124/58.jpg">
+<div class="slideshow-container">
+  <div class="gal12" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0124/54.jpg" onclick="om(12);">
+  </div>
+
+  <div class="gal12" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0124/55.jpg" onclick="om(12);">
+  </div>
+
+  <div class="gal12" id="gb">
+  <div class="numbertext">3</div>
+    <img src="/img/0124/56.jpg" onclick="om(12);">
+  </div>
+    <div class="gal12" id="gb">
+    <div class="numbertext">4</div>
+ <img src="/img/0124/57.jpg" onclick="om(12);">
+  </div>
+  <div class="gal12" id="gb">
+  <div class="numbertext">5</div>
+   <img src="/img/0124/58.jpg" onclick="om(12);">
+  </div>
+
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 11)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 11)">❯</a>
+</div>
+<div id="mga12" class="modal">
+  <span class="close cursor" onclick="cm(12)">&times;</span>
+  <div class="modal-content">
+    <div class="mgas12">
+      <div class="numbertext">1</div>
+      <img src="/img/0124/54.jpg"  style="width:100%">
+    </div>
+    <div class="mgas12">
+      <div class="numbertext">2</div>
+      <img src="/img/0124/55.jpg" style="width:100%">
+    </div>
+    <div class="mgas12">
+      <div class="numbertext">3</div>
+      <img src="/img/0124/56.jpg" style="width:100%">
+    </div>
+    <div class="mgas12">
+      <div class="numbertext">4</div>
+      <img src="/img/0124/57.jpg" style="width:100%">
+    </div>
+    <div class="mgas12">
+      <div class="numbertext">5</div>
+      <img src="/img/0124/58.jpg" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 11)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 11)">❯</a>
+  </div>
 </div>
 <hr>
 <h3 class="da" style="color:purple">26 января | Редактор: Первая школа</h3><h2>Классный час «Горький хлеб блокады»</h2>
@@ -159,25 +751,194 @@ categories: kids
 ✅22 января в нашей школе прошли занятия внеурочной деятельности цикла «Разговоры о важном», посвящённые 80-летию со дня полного освобождения Ленинграда от фашистской блокады.
 ✅Учащиеся школы приняли активное участие в выставке рисунков "Дорога жизни".
 ✅26 января в начальной школе прошёл митинг, на котором ребята из отряда "Юнармия" рассказали своим младшим товарищам о подвиге ленинградцев. Затем раздали символ акции "Блокадный хлеб" - кусочек хлеба весом 125 граммов, который был для ленинградцев единственной надеждой на завтрашний день.</p>
-<div class="imgb">
-<img src="/img/0124/60.jpg"><img src="/img/0124/61.jpg"><img src="/img/0124/63.jpg">
-<img src="/img/0124/62.jpg">
+<div class="slideshow-container">
+  <div class="gal13" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0124/60.jpg" onclick="om(13);">
+  </div>
+
+  <div class="gal13" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0124/61.jpg" onclick="om(13);">
+  </div>
+
+  <div class="gal13" id="gb">
+  <div class="numbertext">3</div>
+    <img src="/img/0124/62.jpg" onclick="om(13);">
+  </div>
+    <div class="gal13" id="gb">
+    <div class="numbertext">4</div>
+ <img src="/img/0124/63.jpg" onclick="om(13);">
+  </div>
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 12)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 12)">❯</a>
+</div>
+<div id="mga13" class="modal">
+  <span class="close cursor" onclick="cm(13)">&times;</span>
+  <div class="modal-content">
+    <div class="mgas13">
+      <div class="numbertext">1</div>
+      <img src="/img/0124/60.jpg"  style="width:100%">
+    </div>
+    <div class="mgas13">
+      <div class="numbertext">2</div>
+      <img src="/img/0124/61.jpg" style="width:100%">
+    </div>
+    <div class="mgas13">
+      <div class="numbertext">3</div>
+      <img src="/img/0124/62.jpg" style="width:100%">
+    </div>
+    <div class="mgas13">
+      <div class="numbertext">4</div>
+      <img src="/img/0124/63.jpg" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 12)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 12)">❯</a>
+  </div>
 </div>
 <hr>
 <h3 class="da" style="color:purple">30 января | Редактор: Первая школа</h3><h2>Акция "Блокадный хлеб" </h2>
 <p>Волонтерский отряд "Энергия" МБОУ Баганской СОШ 1, совместно с молодёжный центром Баганского района, приняли участие в акции "Блокадный хлеб" . Накануне памятной даты , 80тилетия со дня снятия блокады Ленинграда обучающиеся - участники волонтёрского отряда приняли участие во Всероссийской акции памяти «Блокадный хлеб». Волонтеры раздавали символ акции - кусочек хлеба весом 125 граммов. Именно такая минимальная норма выдачи хлеба была установлена во время блокады Ленинграда.
 Акция призвана напомнить о мужестве жителей Ленинграда, переживших беспрецедентную блокаду миллионного города вражескими захватчиками.</p>
-<div class="imgb">
-<img src="/img/0124/64.jpg"><img src="/img/0124/65.jpg"><img src="/img/0124/66.jpg">
-<img src="/img/0124/69.jpg"><img src="/img/0124/68.jpg"><img src="/img/0124/72.jpg">
-<img src="/img/0124/70.jpg"><img src="/img/0124/71.jpg"><img src="/img/0124/67.jpg">
+<div class="slideshow-container">
+  <div class="gal14" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0124/64.jpg" onclick="om(14);">
+  </div>
+
+  <div class="gal14" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0124/65.jpg" onclick="om(14);">
+  </div>
+
+  <div class="gal14" id="gb">
+  <div class="numbertext">3</div>
+    <img src="/img/0124/66.jpg" onclick="om(14);">
+  </div>
+    <div class="gal14" id="gb">
+    <div class="numbertext">4</div>
+ <img src="/img/0124/67.jpg" onclick="om(14);">
+  </div>
+  <div class="gal14" id="gb">
+  <div class="numbertext">5</div>
+   <img src="/img/0124/68.jpg" onclick="om(14);">
+  </div>
+    <div class="gal14" id="gb">
+  <div class="numbertext">6</div>
+    <img src="/img/0124/69.jpg" onclick="om(14);">
+  </div>
+
+  <div class="gal14" id="gb">
+  <div class="numbertext">7</div>
+    <img src="/img/0124/70.jpg" onclick="om(14);">
+  </div>
+
+  <div class="gal14" id="gb">
+  <div class="numbertext">8</div>
+    <img src="/img/0124/71.jpg" onclick="om(14);">
+  </div>
+    <div class="gal14" id="gb">
+    <div class="numbertext">9</div>
+ <img src="/img/0124/72.jpg" onclick="om(14);">
+  </div>
+
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 13)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 13)">❯</a>
+</div>
+<div id="mga14" class="modal">
+  <span class="close cursor" onclick="cm(14)">&times;</span>
+  <div class="modal-content">
+    <div class="mgas14">
+      <div class="numbertext">1</div>
+      <img src="/img/0124/64.jpg"  style="width:100%">
+    </div>
+    <div class="mgas14">
+      <div class="numbertext">2</div>
+      <img src="/img/0124/65.jpg" style="width:100%">
+    </div>
+    <div class="mgas14">
+      <div class="numbertext">3</div>
+      <img src="/img/0124/66.jpg" style="width:100%">
+    </div>
+    <div class="mgas14">
+      <div class="numbertext">4</div>
+      <img src="/img/0124/67.jpg" style="width:100%">
+    </div>
+    <div class="mgas14">
+      <div class="numbertext">5</div>
+      <img src="/img/0124/68.jpg" style="width:100%">
+    </div>
+        <div class="mgas14">
+      <div class="numbertext">6</div>
+      <img src="/img/0124/69.jpg"  style="width:100%">
+    </div>
+    <div class="mgas14">
+      <div class="numbertext">7</div>
+      <img src="/img/0124/70.jpg" style="width:100%">
+    </div>
+    <div class="mgas14">
+      <div class="numbertext">8</div>
+      <img src="/img/0124/71.jpg" style="width:100%">
+    </div>
+    <div class="mgas14">
+      <div class="numbertext">9</div>
+      <img src="/img/0124/72.jpg" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 13)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 13)">❯</a>
+  </div>
 </div>
 <hr>
 <h3 class="da" style="color:purple">30 января | Редактор: Первая школа</h3><h2>Концерт электронной скрипки Давида Аганяна в РДК села Баган</h2>
 <p>30.01.2024 года в рамках патриотического воспитания молодёжи, представители юнармейских отрядов " Воин" и " Витязь" МБОУ Баганской СОШ 1, посетили концерт электронной скрипки Давида Аганяна в РДК села Баган. Давид Аганян путешествует по России и даёт свои концерты. На вырученные деньги он осуществляет гуманитарную помощь участникам СВО.</p>
-<div class="imgb">
-<img src="/img/0124/73.jpg"><img src="/img/0124/74.jpg"><img src="/img/0124/75.jpg">
-<img src="/img/0124/76.jpg">
+<div class="slideshow-container">
+  <div class="gal15" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0124/73.jpg" onclick="om(15);">
+  </div>
+
+  <div class="gal15" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0124/74.jpg" onclick="om(15);">
+  </div>
+
+  <div class="gal15" id="gb">
+  <div class="numbertext">3</div>
+    <img src="/img/0124/75.jpg" onclick="om(15);">
+  </div>
+    <div class="gal15" id="gb">
+    <div class="numbertext">4</div>
+ <img src="/img/0124/76.jpg" onclick="om(15);">
+  </div>
+
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 14)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 14)">❯</a>
+</div>
+<div id="mga15" class="modal">
+  <span class="close cursor" onclick="cm(15)">&times;</span>
+  <div class="modal-content">
+    <div class="mgas15">
+      <div class="numbertext">1</div>
+      <img src="/img/0124/73.jpg"  style="width:100%">
+    </div>
+    <div class="mgas15">
+      <div class="numbertext">2</div>
+      <img src="/img/0124/74.jpg" style="width:100%">
+    </div>
+    <div class="mgas15">
+      <div class="numbertext">3</div>
+      <img src="/img/0124/75.jpg" style="width:100%">
+    </div>
+    <div class="mgas15">
+      <div class="numbertext">4</div>
+      <img src="/img/0124/76.jpg" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 14)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 14)">❯</a>
+  </div>
 </div>
 <hr>
 <h3 class="da" style="color:purple">30 января | Редактор: Первая школа</h3><h2>Встреча, на которой присутствовали участники СВО братья Андрей и Александр К. </h2>
@@ -231,8 +992,51 @@ III место (2 мотора – (МБОУ ДО ДДТ Доволенског�
 I место (4 мотора) – Долженко Даниил (МКОУ Краснозерский лицей №2 имени Ф.И. Анисичкина, руководитель Ткаченко Д.В.);
 II место (4 мотора) - Герасева Инга, Бочарников Дмитрий (МБОУ Баганская СОШ №1, руководитель Поддубко И.А.);
 III место (4 мотора) – Калабина Диана (МКОУ Веселовская СОШ, руководитель Ермагамбетов Э.Р.).</p>
-<div class="imgb">
-<img src="/img/0124/78.jpg"><img src="/img/0124/79.jpg"><img src="/img/0124/80.jpg">
-<img src="/img/0124/81.jpg">
+<div class="slideshow-container">
+  <div class="gal16" id="gb">
+  <div class="numbertext">1</div>
+    <img src="/img/0124/78.jpg" onclick="om(16);">
+  </div>
+
+  <div class="gal16" id="gb">
+  <div class="numbertext">2</div>
+    <img src="/img/0124/79.jpg" onclick="om(16);">
+  </div>
+
+  <div class="gal16" id="gb">
+  <div class="numbertext">3</div>
+    <img src="/img/0124/80.jpg" onclick="om(16);">
+  </div>
+    <div class="gal16" id="gb">
+    <div class="numbertext">4</div>
+ <img src="/img/0124/81.jpg" onclick="om(16);">
+  </div>
+
+  <a class="prev" style="text-decoration:none" onclick="plusSlides(-1, 15)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="plusSlides(1, 15)">❯</a>
+</div>
+<div id="mga16" class="modal">
+  <span class="close cursor" onclick="cm(16)">&times;</span>
+  <div class="modal-content">
+    <div class="mgas16">
+      <div class="numbertext">1</div>
+      <img src="/img/0124/78.jpg"  style="width:100%">
+    </div>
+    <div class="mgas16">
+      <div class="numbertext">2</div>
+      <img src="/img/0124/79.jpg" style="width:100%">
+    </div>
+    <div class="mgas16">
+      <div class="numbertext">3</div>
+      <img src="/img/0124/80.jpg" style="width:100%">
+    </div>
+    <div class="mgas16">
+      <div class="numbertext">4</div>
+      <img src="/img/0124/81.jpg" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+  <a class="prev" style="text-decoration:none" onclick="ps(-1, 15)">❮</a>
+  <a class="nextb" style="text-decoration:none" onclick="ps(1, 15)">❯</a>
+  </div>
 </div>
 <hr>

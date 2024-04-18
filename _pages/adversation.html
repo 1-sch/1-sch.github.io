@@ -31,7 +31,7 @@ permalink: /adv/
           {% endcase %}
           {{ post.date | date: "%Y" }}
         </span> <br><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-          <img class="prv" src="{{ post.img }}">
+        <img class="prv" src="{{ post.img }}">
         <p class="description">{% if post.description %}{{ post.description | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 250 }}{% endif %}</p><hr></li>
       {% endfor %}
     </ul>

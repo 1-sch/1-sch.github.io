@@ -2,6 +2,13 @@
 ---
 
 @import 'jekyll-theme-cayman';
+a{
+color:rgb(41, 139, 41); 
+text-decoration: none !important;
+}
+a:hover{
+color:rgb(34, 102, 34);
+}
 .posts li a{
 color:rgb(41, 139, 41);
 font-size: 35px;
@@ -18,6 +25,7 @@ text-decoration: none !important;
 }
 .posts li span{
     padding-left: 0;
+    color: purple;
 }
 .post-list-heading{
     text-align: center;

@@ -35,11 +35,6 @@ function ps(n, no) {
   sm(smi[no] += n, no);
 }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  sm(smi[no] = n, no);
-}
-
 function sm(n, no) {
   var i;
   var sl = document.getElementsByClassName(smid[no]);

@@ -1,12 +1,6 @@
-var slideIndex = [1,1,1,1,1,1,1];
-var slideId = ["gal1", "gal2", "gal3", "gal4", "gal5", "gal6", "gal7"]
-showSlides(1, 0);
-showSlides(1, 1);
-showSlides(1, 2);
-showSlides(1, 3);
-showSlides(1, 4);
-showSlides(1, 5);
-showSlides(1, 6);
+for (i = 0; i < slideIndex.length; i++){
+    showSlides(1, i);
+}
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
@@ -31,15 +25,11 @@ function cm(nm) {
   document.getElementById("mga"+nm).style.display = "none";
 }
 
-var smi = [1,1,1,1,1,1,1];
-var smid = ["mgas1", "mgas2", "mgas3", "mgas4", "mgas5", "mgas6", "mgas7"]
-sm(1,0);
-sm(1,1);
-sm(1,2);
-sm(1,3);
-sm(1,4);
-sm(1,5);
-sm(1,6);
+
+for (i = 0; i < smi.length; i++){
+    sm(1,i);
+}
+
 // Next/previous controls
 function ps(n, no) {
   sm(smi[no] += n, no);

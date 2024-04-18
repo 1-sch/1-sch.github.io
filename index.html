@@ -31,7 +31,10 @@ layout: default
           {% endcase %}
           {{ post.date | date: "%Y" }}
         </span> <br><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-        <p class="description">{% if post.description %}{{ post.description | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 250 }}{% endif %}</p><hr></li>
+        <img class="prv" src="{{ post.img }}">
+        <p class="description">{% if post.description %}{{ post.description | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 250 }}{% endif %}</p>
+        <hr>
+      </li>
       {% endfor %}
     </ul>
     <style>
@@ -84,7 +87,7 @@ layout: default
         Редакция  газеты</h3><p> 
         Редакции  газеты мобильная</p>
         <p>
-        Создателями газеты являются обучающиеся школы. Руководитель интернет-издания - Морозова Ольга Владимировна, главный редактор - Морозов Дмитрий, младшие редакторы - Экснер Егор и Мустафаев Руслан. </p><br><br>
+        Создателями газеты являются обучающиеся школы. Руководитель интернет-издания - Морозова Ольга Владимировна, вожатая; главный редактор - Морозов Дмитрий, младшие редакторы - Экснер Егор и Мустафаев Руслан. </p><br><br>
     <p class="rss-subscribe">Подписаться <a href="{{ "/feed.xml" | relative_url }}">через RSS</a></p>
   {%- endif -%}
 

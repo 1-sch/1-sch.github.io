@@ -49,16 +49,57 @@
   <a href="/adv/2024/04/01/объявления-2.html"><h4>Акции. Апрель</h4></a>
   <a href="/adv/2024/04/01/объявления-1.html"><h4>Конкурсы. Апрель</h4></a>
 </div>
+<div class="nus2">
+    <h3>{{"События"}}</h3>
+  <a href="#d1"><h4>1 февраля</h4></a>
+  <a href="#d2"><h4>4 февраля</h4></a>
+  <a href="#d3"><h4>8 февраля</h4></a>
+  <a href="#d4"><h4>9 февраля</h4></a>
+  <a href="#d5"><h4>12 февраля</h4></a>
+  <a href="#d6"><h4>13 февраля</h4></a>
+  <a href="#d7"><h4>14 февраля</h4></a>
+  <a href="#d8"><h4>15 февраля</h4></a>
+  <a href="#d9"><h4>20 февраля</h4></a>
+  <a href="#d10"><h4>21 февраля</h4></a>
+  <a href="#d11"><h4>22 февраля</h4></a>
+  <a href="#d12"><h4>26 февраля</h4></a>
+</div>
 </aside>
   <main id="content" class="main-content" role="main">
-    {{ content }}
+<small>{% assign m = page.date | date: "%-m" %}
+  {{ page.date | date: "%-d" }}
+  {% case m %}
+{% when '1' %}января
+{% when '2' %}февраля
+{% when '3' %}марта
+{% when '4' %}апреля
+{% when '5' %}мая
+{% when '6' %}июня
+{% when '7' %}июля
+{% when '8' %}августа
+{% when '9' %}сентября
+{% when '10' %}октября
+{% when '11' %}ноября
+{% when '12' %}декабря
+  {% endcase %}
+  {{ page.date | date: "%Y" }}
+</small>
+<h1>{{ page.title }}</h1>
 
-    <footer class="site-footer">
-      <span class="site-footer-credits">Сделано в Студии цифровой разработки "Апельсин"</span>
-    </footer>
-  </main>
-  <div class="bt"><a href="#" style="text-decoration: none;">^</a></div>
-  <script src="/../script/js.js"></script>
+
+
+{{content}}
+<br>
+{% if page.tags %}
+ <small>{{Теги:}} <em>{{ page.tags | join: "</em> | <em>" }}</em></small>
+  {% else %}
+{% endif %}
+<footer class="site-footer">
+  <span class="site-footer-credits">Сделано в Студии цифровой разработки "Апельсин"</span>
+</footer>
+</main>
+<div class="bt"><a href="#" style="text-decoration: none;">^</a></div>
+<script src="/../script/js.js"></script>
 </body>
 
 </html>
